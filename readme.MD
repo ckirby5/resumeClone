@@ -1,5 +1,7 @@
 # Resume Clone
 
+![Preview Image](/assets/images/preview.html)
+
 ## Getting Started
 
 This project is part of p1xt's Computer Science and Web Development - comprehensive [guide](https://github.com/ckirby5/p1xt-guides/blob/master/cs-wd.md). The project is an attempt to clone a resume template found [here](https://creativemarket.com/ikonome/686585-Material-Resume-Blue/screenshots#screenshot2), using HTML and CSS.
