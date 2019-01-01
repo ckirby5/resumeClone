@@ -1,37 +1,207 @@
-<html<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-        <title>Christian Kirby</title>
-        <link rel="stylesheet" href="assets/stylesheets/main.css">
-    </head>
-    <body>
-        <header class="container primary-header group">
-            <nav class="nav">
-                <ul>
-                    <li><a href="#">Hello</a></li><!--
-                    --><li class="active-page"><a href="#">Resume</a></li><!--
-                    --><li><a href="#">Portfolio</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="container name-background group">
-            <div class="name-container">
-                <h1 class="name">Christian Kirby</h1>
-                <h3>Software Engineer</h3>
-                <img src="assets/images/Me.jpg" alt="Christian Kirby">
-            </div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Christian Kirby - Resume</title>
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container group primary-header">
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Hello</a></li>
+                <li class="selected"><a href="#">Resume</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container group name-occupation">
+        <h1>Christian Kirby</h1>
+        <h2>Software Developer</h2>
+        <img class="me-img" src="assets/images/Me.jpg" alt="Christian Kirby">
+    </section>  
+    <section class="container group basic-info">
+            <p>Junior Software Developer with two years personal and one year professional experience. Constantly learning new technologies and methods in current development areas.</p>
         </section>
-        <section class="container group overview-container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-        <footer class="container primary-footer group">
-            <section>
-                <p>13751 Hunterwood Ln, Eagle River, AK 99577</p>
-                <p>Call: +1(850)776-0702</p>
-                <p>Email: christian.h.kirby@gmail.com</p>
-                <p>www.thelifeofkirby.com</p>
+    <section class="grid">
+            <section class="col-1-3 personal">
+                    <h3>Personal</h3>
+                    <ul class="personal-info">
+                        <li><strong>Name</strong></li>
+                        <li>Christian Kirby</li>
+                        <hr>
+                        <li><strong>Birthday</strong></li>
+                        <li>22 Feb 1990 (28)</li>
+                        <hr>
+                        <li><strong>Relationship</strong></li>
+                        <li>Married</li>
+                        <hr>
+                        <li><strong>Nationality</strong></li>
+                        <li>U.S. Citizen</li>
+                        <hr>
+                        <li><strong>Language</strong></li>
+                        <li>English</li>
+                        <hr>
+                        <li><strong>Telephone</strong></li>
+                        <li>+1(850)776-0702</li>
+                        <hr>
+                    </ul>
+                    <h3 class="software-heading">Software</h3>
+                    <ul class="software-info">
+                        <li><label for="html">HTML 5</label></li>
+                        <li><progress id="html" name="html" max="100" value="80"></progress></li>                        
+                        <li><label for="java">Java</label></li>
+                        <li><progress id="java" name="java" max="100" value="60"></progress></li>
+                        <li><label for="js">JavaScript</label></li>
+                        <li><progress id="js" name="js" max="100" value="50"></progress></li>
+                        <li><label for="jq">jQuery</label></li>
+                        <li><progress id="jq" name="jq" max="100" value="50"></progress></li>
+                        <li><label for="css">CSS 3</label></li>
+                        <li><progress id="css" name="css" max="100" value="45"></progress></li>
+                    </ul>
+                    <h3 class="hobbies-heading">Hobbies</h3>
+                    <section class="grid">
+                        <div class="hobby-cont">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x circle-color snowboard"></i>
+                                <i class="fas fa-snowboarding fa-stack-1x fa-inverse  snowboard"></i>
+                            </span>
+                            <p>Snowboarding</p>
+                        </div>
+                        <div class="hobby-cont">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x circle-color"></i>
+                                <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <p>Gaming</p>
+                        </div>
+                        <div class="hobby-cont">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x circle-color"></i>
+                                <i class="fas fa-hiking fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <p>Hiking</p>
+                        </div>
+                        <div class="hobby-cont">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x circle-color"></i>
+                                <i class="fas fa-plane fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <p>Traveling</p>
+                        </div>
+                        <div class="hobby-cont computer-cont">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x circle-color snowboard"></i>
+                                <i class="fas fa-laptop fa-stack-1x fa-inverse snowboard"></i>
+                            </span>
+                            <p>Programming</p>
+                        </div>
+                        <div class="hobby-cont">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fas fa-circle fa-stack-2x circle-color"></i>
+                                    <i class="fas fa-cat fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <p>Cats</p>
+                            </div>
+                    </section>
+            </section><!--Personal-->
+            <section class="col-2-3 professional">
+                    <h3>Work</h3>
+                    <div>
+                        <div class="bullet-cont">
+                            <div class="bullet-outer">
+                                <div class="bullet-inner"></div>
+                            </div>
+                            <div class="vl-one"></div>
+                        </div>
+                        <ul class="professional-info">
+                            <li><strong>Consultant @ Moser Consulting, Remote</strong></li>
+                            <li><strong>2018</strong></li>
+                            <li>Developer working with Java Spring and Elasticsearch backend. Maintained numerous scripts written in XML and LESS.</li>
+                            <hr>
+                            <li><strong>Yeoman @ U.S. Navy, Various Locations</strong></li>
+                            <li><strong>2018</strong></li>
+                            <li>Provided administrative support to numerous military personnel.</li>
+                            <hr>
+                        </ul>
+                        <div class="bullet-cont-two">
+                                <div class="bullet-outer">
+                                    <div class="bullet-inner"></div>
+                                </div>
+                                <div class="vl"></div>
+                        </div>
+                    </div>
+                    <h3 class="professional-skills">Professional Skills</h3>
+                    <section class="circles">
+                        <div class="circle-filled">
+                            <p>Teamwork</p>
+                        </div>
+                    </section>
+                    <section class="circles">
+                        <div class="circle-filled">
+                            <p>Dedication</p>
+                        </div>
+                    </section>
+                    <section class="circles">
+                        <div class="circle-3-4">
+                            <p>Technical Proficiency</p>
+                        </div>
+                    </section>
+                    <section class="circles r-circle">
+                        <div class="circle-3-4">
+                            <p>Research</p>
+                        </div>
+                    </section>
+                    <section class="circles">
+                        <div class="circle-1-2">
+                            <p>Problem Solving</p>
+                        </div>
+                    </section>
+                    <section class="circles">
+                        <div class="circle-1-4">
+                            <p>Creativity</p>
+                        </div>
+                    </section>
+                    <h3 class="education">Education</h3>
+                    <div>
+                        <div class="bullet-cont">
+                            <div class="bullet-outer">
+                                <div class="bullet-inner"></div>
+                            </div>
+                            <div class="vl"></div>
+                        </div>
+                        <ul class="professional-info">
+                            <li><strong>BS Political Science, University of Maryland University College</strong></li>
+                            <li class="info-year"><strong>2014</strong></li>
+                            <li>Graduated with a major in Political Science and minor in Criminal Justice.</li>
+                            <hr>
+                        </ul>
+                    </div>
             </section>
-        </footer>
-    </body>
+    </section>
+    <section class="container group social">
+            <section class="col-1-3 twitter">
+                <i class="fab fa-twitter fa-3x"></i>
+                <p><a href="https://twitter.com/christianhkirby">Twitter</a></p>
+            </section>
+            <section class="col-1-3 github">
+                <i class="fab fa-github fa-3x"></i>
+                <p><a href="https://github.com/ckirby5">Github</a></p>
+            </section>
+            <section class="col-1-3 linkedin">
+                <i class="fab fa-linkedin fa-3x"></i>
+                <p><a href="https://www.linkedin.com/in/christianhkirby5112/">LinkedIn</a></p>
+            </section>
+        </section>
+    <footer class="container primary-footer group">        
+        <nav class="nav">
+            <ul>
+                <li>13751 Hunterwood Ln, Eagle River, AK 99577, Call: +1(850)776-0702, Email: <a href="christian.h.kirby@gmail.com">christian.h.kirby@gmail.com</a></li>
+                <li><a href="www.thelifeofkirby.com">www.thelifeofkirby.com</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
 </html>
