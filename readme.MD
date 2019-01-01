@@ -1,6 +1,6 @@
 # Resume Clone
 
-![Preview Image](/assets/images/preview.html)
+![Preview Image](/assets/images/preview_img.png)
 
 ## Getting Started
 
